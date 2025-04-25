@@ -7,7 +7,7 @@ spec:
     app: flask-app  # Kết nối Service với Pods có label app: flask-app
   ports:
     - protocol: TCP
-      port: 82  # Cổng mà Service sẽ lắng nghe
+      port: 80  # Cổng mà Service sẽ lắng nghe
       targetPort: 5005  # Cổng mà ứng dụng của bạn đang chạy trong Pod
   type: LoadBalancer  # Tùy chọn, có thể thay bằng NodePort nếu không sử dụng LoadBalancer
 

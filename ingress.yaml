@@ -15,4 +15,4 @@ spec:
           service:
             name: flask-app-service
             port:
-              number: 82  # Cổng của dịch vụ Flask mà bạn đã thay đổi.
+              number: 80  # Cổng của dịch vụ Flask mà bạn đã thay đổi.
